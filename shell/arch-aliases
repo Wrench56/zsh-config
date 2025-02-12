@@ -1,0 +1,10 @@
+#
+# ~/.local/arch-aliases
+#
+
+# Aliases for Arch Linux
+
+alias pacman='sudo pacman'
+
+alias maintain='~/.local/bin/maintenance.sh'
+
