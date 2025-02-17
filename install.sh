@@ -12,7 +12,7 @@ printf "[    ] Installing common plugins\n"
 sudo git clone https://github.com/jirutka/zsh-shift-select /usr/share/zsh/plugins/zsh-shift-select
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions.git /usr/share/zsh/plugins/zsh-autosuggestions
 
-# Call distro specific install
+# Call distro-specific install
 . /etc/os-release
 
 case "$NAME" in
@@ -22,6 +22,6 @@ case "$NAME" in
         . distros/install-arch.sh
         ;;
     *)
-        printf "[FAIL] No valid distro specific installation script found!\n"
+        printf "[FAIL] No valid distro-specific installation script found!\n"
 esac
 
