@@ -35,3 +35,6 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 # Keybinds
 source ~/.local/keybinds
 
+# Distro-specific configurations
+# __DISTRO_CONFIGS__
+
