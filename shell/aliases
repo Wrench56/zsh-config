@@ -19,3 +19,5 @@ alias grep='grep --color=auto'
 alias ..='cd ..'
 alias mkdir='mkdir -pv'
 
+alias nv='nvim'
+
