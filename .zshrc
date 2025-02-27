@@ -17,6 +17,9 @@ fi
 # PATH
 export PATH=$PATH:~/.local/bin
 
+# GPG
+export GPG_TTY=$(tty)
+
 # Source aliases
 source ~/.local/aliases
 
